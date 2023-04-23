@@ -1,0 +1,49 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.item {
+    border: solid black;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.timeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.control-panel {
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+.btn-start {
+    padding: 1rem;
+    width: 150px;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
